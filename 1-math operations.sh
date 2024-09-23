@@ -18,5 +18,5 @@ echo "exponentiation : "  $exponentiation
 
 # For decimal calculations, we can use bc command to get the output to a particular number of decimal places
 # bc (Bash Calculator) is a command line calculator that supports calculation up to a certain number of decimal points.
-
+# Where scale defines the number of decimal places required in the output.
 echo "scale=2;22/7" | bc
